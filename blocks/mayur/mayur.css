@@ -17,9 +17,9 @@
     text-align: center;
 }
 
-.block > div {
+/* .block > div {
     display: block;
-}
+} */
 
 .mayur {
     width: 100%;
@@ -30,4 +30,26 @@
 .mayur-wrapper{
     width: 100%;
     display: flex;
+}
+
+
+
+
+.whychooseus3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.whychooseus3 picture img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.whychooseus3 p {
+    margin: 0;
+    text-align: center;
 }

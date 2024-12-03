@@ -2,7 +2,6 @@ export default function decorate(block) {
   const children = block.querySelectorAll("div");
 
   children.forEach((child, index) => {
-    // Find the closest parent with the dynamic class name
     let parent = child.parentNode;
     while (
       parent &&
@@ -13,7 +12,7 @@ export default function decorate(block) {
     }
 
     if (parent) {
-      const dynamicClassName = parent.classList[1]; // Assuming the second class is the dynamic one
+      const dynamicClassName = parent.classList[1];
       child.classList.add(`${dynamicClassName}${index + 1}`);
     }
   });
