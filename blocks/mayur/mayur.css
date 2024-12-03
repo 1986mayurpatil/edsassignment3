@@ -1,26 +1,22 @@
-/* Ensure the parent container does not force horizontal layout */
 .whychooseus {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: flex-start; /* Align content at the top */
-    width: fit-content; /* Allow full width if needed */
-    margin-bottom: 20px; /* Add spacing between divs */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    margin-bottom: 20px;
 }
 
-/* Fix for images within the div (optional) */
 .whychooseus picture img {
-    max-width: 100px; /* Set the maximum width for images */
-    margin-bottom: 10px; /* Add spacing below the image */
+    max-width: 100px;
+    margin-bottom: 10px;
 }
 
-/* Fix for text inside the divs (optional) */
 .whychooseus p {
-    margin: 0; /* Remove default margins */
-    text-align: center; /* Center the text */
+    margin: 0;
+    text-align: center;
 }
 
-/* Reset the parent wrapper to avoid horizontal stacking */
 .block > div {
     display: block;
 }
